@@ -49,7 +49,16 @@
 
 
 
+#### Harnessing Massive Satellite Imagery with Efficient Masked Image Modeling
 
+> Fengxiang Wang, Hongzhen Wang, Di Wang, Zonghao Guo, Zhenyu Zhong, Long Lan, Wenjing Yang, Jing Zhang
+
+* Paper: https://arxiv.org/abs/2406.11933
+* Code: https://github.com/MiliLab/SelectiveMAE
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Masked Image Modeling (MIM) has become an essential method for building foundational visual models in remote sensing (RS). However, the limitations in size and diversity of existing RS datasets restrict the ability of MIM methods to learn generalizable representations. Additionally, conventional MIM techniques, which require reconstructing all tokens, introduce unnecessary computational overhead. To address these issues, we present a new pre-training pipeline for RS models, featuring the creation of a large-scale RS dataset and an efficient MIM approach. We curated a high-quality dataset named \textbf{OpticalRS-13M} by collecting publicly available RS datasets and processing them through exclusion, slicing, and deduplication. OpticalRS-13M comprises 13 million optical images covering various RS tasks, such as object detection and pixel segmentation. To enhance efficiency, we propose \textbf{SelectiveMAE}, a pre-training method that dynamically encodes and reconstructs semantically rich patch tokens, thereby reducing the inefficiencies of traditional MIM models caused by redundant background pixels in RS images. Extensive experiments show that OpticalRS-13M significantly improves classification, detection, and segmentation performance, while SelectiveMAE increases training efficiency over 2 times. This highlights the effectiveness and scalability of our pipeline in developing RS foundational models.
+  </details>
 
 
 
