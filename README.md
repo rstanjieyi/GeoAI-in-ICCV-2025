@@ -4,7 +4,7 @@
 
 ## 📢 Latest Updates
 :fire::fire::fire: Last Updated on 2025.06.29 :fire::fire::fire:
-- **2025.06.29**: Update 1 papers.
+- **2025.06.29**: Update 9 papers.
 
 
 ## :memo: ICCV 2025 Accepted Paper List
