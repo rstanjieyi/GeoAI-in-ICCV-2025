@@ -61,6 +61,20 @@
   </details>
 
 
+
+#### RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model
+
+> Huiyang Hu, Peijin Wang, Hanbo Bi, Boyuan Tong, Zhaozhi Wang, Wenhui Diao, Hao Chang, Yingchao Feng, Ziqi Zhang, Yaowei Wang, Qixiang Ye, Kun Fu, Xian Sun
+
+* Paper: https://arxiv.org/abs/2411.17984
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Remote sensing foundation models largely break away from the traditional paradigm of designing task-specific models, offering greater scalability across multiple tasks. However, they face challenges such as low computational efficiency and limited interpretability, especially when dealing with large-scale remote sensing images. To overcome these, we draw inspiration from heat conduction, a physical process modeling local heat diffusion. Building on this idea, we are the first to explore the potential of using the parallel computing model of heat conduction to simulate the local region correlations in high-resolution remote sensing images, and introduce RS-vHeat, an efficient multi-modal remote sensing foundation model. Specifically, RS-vHeat 1) applies the Heat Conduction Operator (HCO) with a complexity of  and a global receptive field, reducing computational overhead while capturing remote sensing object structure information to guide heat diffusion; 2) learns the frequency distribution representations of various scenes through a self-supervised strategy based on frequency domain hierarchical masking and multi-domain reconstruction; 3) significantly improves efficiency and performance over state-of-the-art techniques across 4 tasks and 10 datasets. Compared to attention-based remote sensing foundation models, we reduce memory usage by 84\%, FLOPs by 24\% and improves throughput by 2.7 times. The code will be made publicly available.
+  </details>
+
+
+
+
 #### TopicGeo: An Efficient Unified Framework for Geolocation
 
 > TopicGeo: An Efficient Unified Framework for Geolocation
