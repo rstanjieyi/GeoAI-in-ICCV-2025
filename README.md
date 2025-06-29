@@ -121,6 +121,18 @@
   </details>
 
 
+
+#### Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image
+
+> Shuang Xu, Zixiang Zhao, Haowen Bai, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng
+
+* Paper: https://arxiv.org/abs/2412.04201
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Hyperspectral images (HSIs) are frequently noisy and of low resolution due to the constraints of imaging devices. Recently launched satellites can concurrently acquire HSIs and panchromatic (PAN) images, enabling the restoration of HSIs to generate clean and high-resolution imagery through fusing PAN images for denoising and super-resolution. However, previous studies treated these two tasks as independent processes, resulting in accumulated errors. This paper introduces \textbf{H}yperspectral \textbf{I}mage Joint \textbf{Pand}enoising \textbf{a}nd Pan\textbf{s}harpening (Hipandas), a novel learning paradigm that reconstructs HRHS images from noisy low-resolution HSIs (LRHS) and high-resolution PAN images. The proposed zero-shot Hipandas framework consists of a guided denoising network, a guided super-resolution network, and a PAN reconstruction network, utilizing an HSI low-rank prior and a newly introduced detail-oriented low-rank prior. The interconnection of these networks complicates the training process, necessitating a two-stage training strategy to ensure effective training. Experimental results on both simulated and real-world datasets indicate that the proposed method surpasses state-of-the-art algorithms, yielding more accurate and visually pleasing HRHS images.
+  </details>
+
+
 #### TopicGeo: An Efficient Unified Framework for Geolocation
 
 > TopicGeo: An Efficient Unified Framework for Geolocation
