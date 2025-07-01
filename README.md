@@ -133,6 +133,17 @@
   </details>
 
 
+#### UrbanLLaVA: A Multi-modal Large Language Model for Urban Intelligence with Spatial Reasoning and Understanding
+
+> Jie Feng, Shengyuan Wang, Tianhui Liu, Yanxin Xi, Yong Li
+
+* Paper: https://arxiv.org/abs/2506.23219
+* Code: https://github.com/tsinghua-fib-lab/UrbanLLaVA
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Urban research involves a wide range of scenarios and tasks that require the understanding of multi-modal data. Current methods often focus on specific data types and lack a unified framework in urban field for processing them comprehensively. The recent success of multi-modal large language models (MLLMs) presents a promising opportunity to overcome this limitation. In this paper, we introduce , a multi-modal large language model designed to process these four types of data simultaneously and achieve strong performance across diverse urban tasks compared with general MLLMs. In , we first curate a diverse urban instruction dataset encompassing both single-modal and cross-modal urban data, spanning from location view to global view of urban environment. Additionally, we propose a multi-stage training framework that decouples spatial reasoning enhancement from domain knowledge learning, thereby improving the compatibility and downstream performance of  across diverse urban tasks. Finally, we also extend existing benchmark for urban research to assess the performance of MLLMs across a wide range of urban tasks. Experimental results from three cities demonstrate that  outperforms open-source and proprietary MLLMs in both single-modal tasks and complex cross-modal tasks and shows robust generalization abilities across cities. 
+  </details>
+
 #### TopicGeo: An Efficient Unified Framework for Geolocation
 
 > TopicGeo: An Efficient Unified Framework for Geolocation
