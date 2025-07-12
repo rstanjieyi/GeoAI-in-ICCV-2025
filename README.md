@@ -83,6 +83,29 @@
     Masked Image Modeling (MIM) has become an essential method for building foundational visual models in remote sensing (RS). However, the limitations in size and diversity of existing RS datasets restrict the ability of MIM methods to learn generalizable representations. Additionally, conventional MIM techniques, which require reconstructing all tokens, introduce unnecessary computational overhead. To address these issues, we present a new pre-training pipeline for RS models, featuring the creation of a large-scale RS dataset and an efficient MIM approach. We curated a high-quality dataset named \textbf{OpticalRS-13M} by collecting publicly available RS datasets and processing them through exclusion, slicing, and deduplication. OpticalRS-13M comprises 13 million optical images covering various RS tasks, such as object detection and pixel segmentation. To enhance efficiency, we propose \textbf{SelectiveMAE}, a pre-training method that dynamically encodes and reconstructs semantically rich patch tokens, thereby reducing the inefficiencies of traditional MIM models caused by redundant background pixels in RS images. Extensive experiments show that OpticalRS-13M significantly improves classification, detection, and segmentation performance, while SelectiveMAE increases training efficiency over 2 times. This highlights the effectiveness and scalability of our pipeline in developing RS foundational models.
   </details>
 
+#### Cross-modal Ship Re-Identification via Optical and SAR Imagery: A Novel Dataset and Method
+
+> Han Wang, Shengyang Li, Jian Yang, Yuxuan Liu, Yixuan Lv, Zhuang Zhou
+
+* Paper: https://arxiv.org/abs/2506.22027
+* Code: https://github.com/Alioth2000/Hoss-ReID
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Detecting and tracking ground objects using earth observation imagery remains a significant challenge in the field of remote sensing. Continuous maritime ship tracking is crucial for applications such as maritime search and rescue, law enforcement, and shipping analysis. However, most current ship tracking methods rely on geostationary satellites or video satellites. The former offer low resolution and are susceptible to weather conditions, while the latter have short filming durations and limited coverage areas, making them less suitable for the real-world requirements of ship tracking. To address these limitations, we present the Hybrid Optical and Synthetic Aperture Radar (SAR) Ship Re-Identification Dataset (HOSS ReID dataset), designed to evaluate the effectiveness of ship tracking using low-Earth orbit constellations of optical and SAR sensors. This approach ensures shorter re-imaging cycles and enables all-weather tracking. HOSS ReID dataset includes images of the same ship captured over extended periods under diverse conditions, using different satellites of different modalities at varying times and angles. Furthermore, we propose a baseline method for cross-modal ship re-identification, TransOSS, which is built on the Vision Transformer architecture. It refines the patch embedding structure to better accommodate cross-modal tasks, incorporates additional embeddings to introduce more reference information, and employs contrastive learning to pre-train on large-scale optical-SAR image pairs, ensuring the model's ability to extract modality-invariant features. 
+  </details>
+
+
+
+#### Where am I? Cross-View Geo-localization with Natural Language Descriptions
+
+> Junyan Ye, Honglin Lin, Leyan Ou, Dairong Chen, Zihao Wang, Conghui He, Weijia Li
+
+* Paper: https://arxiv.org/abs/2412.17007v1
+* Project: https://yejy53.github.io/CVG-Text/
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Cross-view geo-localization identifies the locations of street-view images by matching them with geo-tagged satellite images or OSM. However, most studies focus on image-to-image retrieval, with fewer addressing text-guided retrieval, a task vital for applications like pedestrian navigation and emergency response. In this work, we introduce a novel task for cross-view geo-localization with natural language descriptions, which aims to retrieve corresponding satellite images or OSM database based on scene text. To support this task, we construct the CVG-Text dataset by collecting cross-view data from multiple cities and employing a scene text generation approach that leverages the annotation capabilities of Large Multimodal Models to produce high-quality scene text descriptions with localization this http URL, we propose a novel text-based retrieval localization method, CrossText2Loc, which improves recall by 10% and demonstrates excellent long-text retrieval capabilities. In terms of explainability, it not only provides similarity scores but also offers retrieval reasons. 
+  </details>
 
 
 #### RS-vHeat: Heat Conduction Guided Efficient Remote Sensing Foundation Model
