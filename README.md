@@ -35,6 +35,17 @@
   </details>
 
 
+#### Parameter-Efficient Adaptation of Geospatial Foundation Models through Embedding Deflection
+
+> Romain Thoreau, Valerio Marsocci, Dawa Derksen
+
+* Paper: https://arxiv.org/abs/2503.09493
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    As large-scale heterogeneous data sets become increasingly available, adapting foundation models at low cost has become a key issue. Seminal works in natural language processing, e.g. Low-Rank Adaptation (LoRA), leverage the low "intrinsic rank" of parameter updates during adaptation. In this paper, we argue that incorporating stronger inductive biases in both data and models can enhance the adaptation of Geospatial Foundation Models (GFMs), pretrained on RGB satellite images, to other types of optical satellite data. Specifically, the pretrained parameters of GFMs serve as a strong prior for the spatial structure of multispectral images. For this reason, we introduce DEFLECT (Deflecting Embeddings for Finetuning Latent representations for Earth and Climate Tasks), a novel strategy for adapting GFMs to multispectral satellite imagery with very few additional parameters. DEFLECT improves the representation capabilities of the extracted features, particularly enhancing spectral information, which is essential for geoscience and environmental-related tasks. We demonstrate the effectiveness of our method across three different GFMs and five diverse datasets, ranging from forest monitoring to marine environment segmentation. Compared to competing methods, DEFLECT achieves on-par or higher accuracy with 5-10 fewer parameters for classification and segmentation tasks. The code will be made publicly available.
+  </details>
+
+
 #### WildSAT: Learning Satellite Image Representations from Wildlife Observations
 
 > Rangel Daroya, Elijah Cole, Oisin Mac Aodha, Grant Van Horn, Subhransu Maji
