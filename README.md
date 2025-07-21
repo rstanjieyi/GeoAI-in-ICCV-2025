@@ -23,6 +23,20 @@
   </details>
 
 
+#### Can Generative Geospatial Diffusion Models Excel as Discriminative Geospatial Foundation Models?
+
+> Yuru Jia, Valerio Marsocci, Ziyang Gong, Xue Yang, Maarten Vergauwen, Andrea Nascetti
+
+* Paper: https://arxiv.org/abs/2503.07890
+* Code: https://github.com/yurujaja/SatDiFuser
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Self-supervised learning (SSL) has revolutionized representation learning in Remote Sensing (RS), advancing Geospatial Foundation Models (GFMs) to leverage vast unlabeled satellite imagery for diverse downstream tasks. Currently, GFMs primarily focus on discriminative objectives, such as contrastive learning or masked image modeling, owing to their proven success in learning transferable representations. However, generative diffusion models--which demonstrate the potential to capture multi-grained semantics essential for RS tasks during image generation--remain underexplored for discriminative applications. This prompts the question: can generative diffusion models also excel and serve as GFMs with sufficient discriminative power? In this work, we answer this question with SatDiFuser, a framework that transforms a diffusion-based generative geospatial foundation model into a powerful pretraining tool for discriminative RS. By systematically analyzing multi-stage, noise-dependent diffusion features, we develop three fusion strategies to effectively leverage these diverse representations. Extensive experiments on remote sensing benchmarks show that SatDiFuser outperforms state-of-the-art GFMs, achieving gains of up to +5.7% mIoU in semantic segmentation and +7.9% F1-score in classification, demonstrating the capacity of diffusion-based generative foundation models to rival or exceed discriminative GFMs. Code will be released.
+  </details>
+
+
+
+
 #### TerraMind: Large-Scale Generative Multimodality for Earth Observation
 
 > Johannes Jakubik, Felix Yang, Benedikt Blumenstiel, Erik Scheurer, Rocco Sedona, Stefano Maurogiovanni, Jente Bosmans, Nikolaos Dionelis, Valerio Marsocci, Niklas Kopp, Rahul Ramachandran, Paolo Fraccaro, Thomas Brunschwiler, Gabriele Cavallaro, Juan Bernabe-Moreno, Nicolas Longépé
