@@ -206,12 +206,12 @@
 
 #### TopicGeo: An Efficient Unified Framework for Geolocation
 
-> TopicGeo: An Efficient Unified Framework for Geolocation
+> Xin Wang, Xinlin Wang, Shuiping Gou
 
 * Paper: None
 * <details>
     <summary>Abstract (Click to expand):</summary>
-    在小尺度的查询图像与大量大尺度的地理参考图像之间建立空间对应关系的视觉地理定位技术已受到广泛关注。现有方法通常采用“先检索再匹配”的分离范式，但该范式存在计算效率低或精度受限的问题。为此，我们提出了一个统一的检索匹配框架TopicGeo，通过三项关键创新实现查询图像与参考图像的直接且精确匹配。首先我们将通过CLIP提示学习和语义蒸馏提取的文本对象语义（称为Topic即主题）嵌入地理定位框架，以消除多时相遥感图像中类内与类间的分布差异，同时提升处理效率。然后基于中心自适应标签分配与离群点剔除机制作为联合“检索-匹配”优化策略，确保了任务一致的特征学习与精确的空间对应关系。我们还引入了多层次的精细匹配流程，以进一步提升匹配的质量和数量。在大规模的合成与真实数据集上的评估表明，TopicGeo在检索召回率和匹配精度方面均具有较好的性能，同时保持了良好的计算效率。
+    Vision-based geolocation techniques that establish spatial correspondences between smaller query images and larger georeferenced images have gained significant attention. Existing approaches typically employ a separate "retrieve-then-match" paradigm, whereas such paradigms suffer from computational inefficiency or precision limitations.To this end, we propose TopicGeo, an unified framework for direct and precise query-to-reference image matching via three key innovations.The textual object semantics, called topics, distilled from CLIP prompt learning are embedded into the geolocation framework to eliminate intra-class and inter-class distribution discrepancies while also enhancing processing efficiency.Center-based adaptive label assignment and outlier rejection mechanisms as a joint retrieval-matching optimization strategy ensure task-coherent feature learning and precise spatial correspondences. A multi-level fine matching pipeline is introduced to refine matching from quality and quantity.Evaluations on large-scale synthetic and real-world datasets illustrate that TopicGeo achieves state-of-the-art performance in retrieval recall and matching accuracy while maintaining a balance in computational efficiency.
   </details>
 
 
