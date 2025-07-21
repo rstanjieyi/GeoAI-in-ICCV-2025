@@ -35,7 +35,16 @@
   </details>
 
 
+#### WildSAT: Learning Satellite Image Representations from Wildlife Observations
 
+> Rangel Daroya, Elijah Cole, Oisin Mac Aodha, Grant Van Horn, Subhransu Maji
+
+* Paper: https://arxiv.org/abs/2412.14428
+* Code: https://github.com/cvl-umass/wildsat
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    What does the presence of a species reveal about a geographic location? We posit that habitat, climate, and environmental preferences reflected in species distributions provide a rich source of supervision for learning satellite image representations. We introduce WildSAT, which pairs satellite images with millions of geo-tagged wildlife observations readily-available on citizen science platforms. WildSAT uses a contrastive learning framework to combine information from species distribution maps with text descriptions that capture habitat and range details, alongside satellite images, to train or fine-tune models. On a range of downstream satellite image recognition tasks, this significantly improves the performance of both randomly initialized models and pre-trained models from sources like ImageNet or specialized satellite image datasets. Additionally, the alignment with text enables zero-shot retrieval, allowing for search based on general descriptions of locations. We demonstrate that WildSAT achieves better representations than recent methods that utilize other forms of cross-modal supervision, such as aligning satellite images with ground images or wildlife photos. Finally, we analyze the impact of various design choices on downstream performance, highlighting the general applicability of our approach.
+  </details>
 
 #### TerraMind: Large-Scale Generative Multimodality for Earth Observation
 
