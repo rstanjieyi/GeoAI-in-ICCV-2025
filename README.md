@@ -204,6 +204,20 @@
     Urban research involves a wide range of scenarios and tasks that require the understanding of multi-modal data. Current methods often focus on specific data types and lack a unified framework in urban field for processing them comprehensively. The recent success of multi-modal large language models (MLLMs) presents a promising opportunity to overcome this limitation. In this paper, we introduce , a multi-modal large language model designed to process these four types of data simultaneously and achieve strong performance across diverse urban tasks compared with general MLLMs. In , we first curate a diverse urban instruction dataset encompassing both single-modal and cross-modal urban data, spanning from location view to global view of urban environment. Additionally, we propose a multi-stage training framework that decouples spatial reasoning enhancement from domain knowledge learning, thereby improving the compatibility and downstream performance of  across diverse urban tasks. Finally, we also extend existing benchmark for urban research to assess the performance of MLLMs across a wide range of urban tasks. Experimental results from three cities demonstrate that  outperforms open-source and proprietary MLLMs in both single-modal tasks and complex cross-modal tasks and shows robust generalization abilities across cities. 
   </details>
 
+
+#### Sat2City: 3D City Generation from A Single Satellite Image with Cascaded Latent Diffusion
+
+> Tongyan Hua, Lutao Jiang, Ying-Cong Chen, Wufan Zhao
+
+* Paper: https://arxiv.org/abs/2506.23219
+* Project: https://ai4city-hkust.github.io/Sat2City/
+* <details>
+    <summary>Abstract (Click to expand):</summary>
+    Recent advancements in generative models have enabled 3D urban scene generation from satellite imagery, unlocking promising applications in gaming, digital twins, and beyond. However, most existing methods rely heavily on neural rendering techniques, which hinder their ability to produce detailed 3D structures on a broader scale, largely due to the inherent structural ambiguity derived from relatively limited 2D observations. To address this challenge, we propose Sat2City, a novel framework that synergizes the representational capacity of sparse voxel grids with latent diffusion models, tailored specifically for our novel 3D city dataset. Our approach is enabled by three key components: (1) A cascaded latent diffusion framework that progressively recovers 3D city structures from satellite imagery, (2) a Re-Hash operation at its Variational Autoencoder (VAE) bottleneck to compute multi-scale feature grids for stable appearance optimization and (3) an inverse sampling strategy enabling implicit supervision for smooth appearance this http URL overcome the challenge of collecting real-world city-scale 3D models with high-quality geometry and appearance, we introduce a dataset of synthesized large-scale 3D cities paired with satellite-view height maps. Validated on this dataset, our framework generates detailed 3D structures from a single satellite image, achieving superior fidelity compared to existing city generation models.
+  </details>
+
+
+
 #### TopicGeo: An Efficient Unified Framework for Geolocation
 
 > Xin Wang, Xinlin Wang, Shuiping Gou
